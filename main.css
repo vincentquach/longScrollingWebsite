@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  background: url("http://lostworldsfairs.com/atlantis/img/bg_frontwave.png") repeat-x left 270px, url("http://lostworldsfairs.com/atlantis/img/bg_backwave.png") repeat-x left 230px,  linear-gradient(to bottom, #edd7a6 100px,#d6c298 300px,#acdfe8 300px,#2b88d9 54%,#2b88d9 59%,#2b88d9 59%,#7db9e8 80%,#2b88d9 88%);
+}
+
+#counter {
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  /* centers the text in the middle of the box */
+  line-height: 100px; /*must be the same as the height of the box*/
+  text-align: center;
+}
+
+#canvas {
+  border: 1px solid blue;
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  height: 10000px;
+  padding: 0;
+}
